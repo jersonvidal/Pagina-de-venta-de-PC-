@@ -1,0 +1,228 @@
+#contenedor{
+    margin: auto;
+    width: 100%;
+    
+}
+body{
+    margin: 20px;
+}
+.logo{
+    height: 110px;
+    width: 13%;
+    float: left;
+    border-radius: 25px;
+    border: 2px solid darkred;
+}
+.banner{
+    width: 100%;
+    height: 230px;
+    margin: auto;
+    border: 2px solid darkred;
+    border-radius: 15px;
+}
+.contenedor{
+    width: 100%;
+    margin: auto;
+   
+}
+input{
+    outline: none;
+    margin: 15px;
+    box-sizing: border-box;
+    width: 95%;
+    padding: 10px;
+    border-radius: 9px;
+    border-style: double;
+}
+.buscador{
+    padding: 20px;
+    text-align: justify;
+    display: flex;
+}
+.buscador img{
+    width: 5%;
+    height: 70px;
+}
+header{
+    margin: 2px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.navegacion{
+    width: 100%;
+    margin: 7px auto;
+ background-color: black;
+}
+.navegacion ul{
+    list-style: none;
+    text-align: center;
+    font-size: 29px;
+
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+.menu li a:hover{
+color: darkcyan;
+transition: all .3s;
+}
+.submenu{
+    position: absolute;
+    background: white;
+    width: 115%;
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu li:hover .submenu{
+ display: block;
+ opacity: 1;
+ visibility: visible;
+}
+.cat{
+    float: left;
+    background-color: darkred;
+    width: 400px;
+}
+
+main{
+    display: flex;
+
+}
+aside{
+    max-width: 800px;
+    width: 26%; 
+    margin: 10px;
+    border: 4px solid darkred;
+    text-align: center;
+    }
+
+a{
+    font-size: 20pt;
+   
+    
+}     
+
+.video1{
+        width: 70%;
+        height: 70%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        display: block;
+        box-shadow: 0px 15px 25px;
+        border-radius: 10%;
+}
+footer{
+    margin: 10px;
+    background:#014ba0;
+    display: flex;
+    border: 4px solid darkred;
+    border-radius: 20px;
+
+}
+footer p{
+    width: 90%; 
+    margin: 30px; 
+    margin-bottom: 30px;
+     margin: left 20px;
+    margin-right: 20px;
+    color: rgb(12, 9, 9); font-size: 18pt; font-family: 'Franklin Gothic Medium',
+    'Arial Narrow', Arial, sans-serif;
+    padding-top: 27px;
+    font-size: 30pt;
+
+}
+
+footer div{
+    display: flex;
+    width: 500px;
+    border: 2px solid black;
+    
+}
+
+footer div img{
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-bottom: 10px; 
+}
+.image-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 10px;
+    margin-bottom: 10px;
+    border: 4px solid darkred;
+}
+
+.image-container {
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.image-container img {
+
+    
+    max-width: 100%;
+    margin-top: 10px;
+    box-shadow: 0px 15px 25px;
+    border-radius: 10%;
+    width: 90%;
+    height: 65%;  
+}
+
+.laptop-brand {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 32pt;
+    border: 4px solid rgba(162, 214, 184, 0.941);
+    display:inline-block;
+    padding: 15px;
+    display: inline-flex;
+    color: black;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+
+h4{
+    background-color: lightblue;
+    width: 80%;
+}
+td{
+    width: 440px;
+    border: solid darkred;
+    height: 650px;
+    border-radius: 20px;
+}
+td img{
+    width: 100%;
+    height: 300px;
+}
+.productosc{
+    width: auto;
+}

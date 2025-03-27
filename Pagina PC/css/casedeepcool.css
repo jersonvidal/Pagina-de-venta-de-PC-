@@ -1,0 +1,182 @@
+.logo{
+    height: 110px;
+    width: 13%;
+    float: left;
+   border: 2px solid darkred;
+   border-radius: 25px;
+}
+.banner{
+    width: 100%;
+    height: 230px;
+    margin: auto;
+    border: 2px solid darkred;
+    border-radius: 15px;
+}
+.contenedor{
+    width: 100%;
+    margin: auto;
+    
+}
+input{
+    outline: none;
+    margin: 15px;
+    box-sizing: border-box;
+    width: 95%;
+    padding: 10px;
+    border-radius: 9px;
+    border-style: double;
+}
+.buscador{
+    padding: 20px;
+    text-align: justify;
+    display: flex;
+}
+.buscador img{
+    width: 5%;
+    height: 70px;
+}
+header{
+    margin: 2px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.navegacion{
+    width: 100%;
+    margin: 7px auto;
+ background-color: black;
+}
+.navegacion ul{
+    list-style: none;
+    text-align: center;
+    font-size: 29px;
+
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+.menu li a:hover{
+color: darkcyan;
+transition: all .3s;
+}
+.submenu{
+    position: absolute;
+    background: white;
+    width: 115%;
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu li:hover .submenu{
+ display: block;
+ opacity: 1;
+ visibility: visible;
+}
+.cat{
+    float: left;
+    background-color: darkred;
+    width: 400px;
+}
+img{
+    width: 100%;
+}
+td{
+    width: 20%;
+    border: solid darkred;
+    border-radius: 20px;
+}
+body{
+    margin: 20px;
+}
+h1{
+    font-size: 30px;
+    color: darkred;
+    margin: 10px;
+    text-align: center;
+}
+
+h4{
+    background-color: lightblue;
+    width: 80%;
+}
+footer{
+    margin: 10px;
+    background: #990F02;
+    display: flex;
+    border: 4px solid darkred;
+    border-radius: 20px;
+}
+footer p{
+    width: 90%; 
+    margin: 30px; 
+    margin-bottom: 30px;
+     margin: left 20px;
+    margin-right: 20px;
+    color: rgb(12, 9, 9); font-size: 18pt; font-family: 'Franklin Gothic Medium',
+    'Arial Narrow', Arial, sans-serif;
+    padding-top: 27px;
+    font-size: 30pt;
+
+}
+
+footer div{
+    display: flex;
+    width: 500px;
+    border: 4px solid black;
+    border-radius: 20px;
+    
+}
+
+footer div img{
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-bottom: 10px; 
+}
+
+
+
+
+.ddd{
+float: left;
+width: 35%;
+}
+.imagencentral{
+display: inline-block;
+border: 3px solid black;
+border-radius: 15px;
+width: 99%;
+}
+.zotac{
+    width: 59%;
+    height: max-content;
+  
+    font-size: 20px;
+    text-decoration: none;
+    float: right;
+    height: 447px;
+}
+.zotac h1{
+    color: black;
+}
+
